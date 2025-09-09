@@ -2,7 +2,7 @@ import { handleUpload } from '@vercel/blob/client';
 
 // This is a Vercel Edge Function
 export const config = {
-  runtime: 'edge',
+  runtime: 'nodejs',
 };
 
 // The client-side `upload` function from `@vercel/blob/client` will call this endpoint.
