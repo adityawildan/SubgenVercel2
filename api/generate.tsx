@@ -4,7 +4,7 @@ import { del } from '@vercel/blob';
 // This is the serverless function runtime configuration.
 // Edge is fast and cost-effective.
 export const config = {
-  runtime: 'edge',
+  runtime: 'nodejs',
   maxDuration: 300, // Increase duration for downloading and processing larger files
 };
 
